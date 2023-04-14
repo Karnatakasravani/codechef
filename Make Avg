@@ -1,0 +1,9 @@
+t = int(input())            
+for i in range(t):          
+    A, C = map(int, input().split())
+    if A%2== 0 and C%2 == 0:
+        print(int((A+C)/2))
+    elif A%2 != 0 and C%2 != 0:
+        print(int((A+C)/2))
+    else:
+        print(-1)
