@@ -1,0 +1,5 @@
+x,y,z=map(int,input().split())
+m=x-y
+n=m-z
+print(m)
+print(n)
