@@ -1,0 +1,11 @@
+# cook your dish here
+t=int(input())
+for i in range(t):
+    A,B=map(int,input().split())
+    if A==B:
+        print("YES")
+    elif (B-A)%2==0:
+        print("YES")
+    else:
+        print("NO")
+        
