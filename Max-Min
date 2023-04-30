@@ -1,0 +1,6 @@
+# cook your dish here
+t=int(input())
+for i in range(t):
+    a,b,c=map(int,input().split())
+    R=max(a,b,c)-min(a,b,c)
+    print(R)
