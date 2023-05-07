@@ -1,0 +1,5 @@
+# cook your dish here
+for i in range(int(input())):
+    x,y,z=map(int,input().split())
+    total=x-y+z
+    print(total)
