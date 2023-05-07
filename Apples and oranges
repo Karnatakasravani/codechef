@@ -1,0 +1,7 @@
+# cook your dish here
+n=int(input())
+A,B=map(int,input().split())
+if n>=(A+B):
+    print("YES")
+else:
+    print("NO")
