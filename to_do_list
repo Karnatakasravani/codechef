@@ -1,0 +1,10 @@
+T = int(input())
+for i in range(T):
+    N = int(input())
+    D = list(map(int,input().split()))
+    cnt= 0
+    for i in range(N):
+        if D[i]>=1000:
+            cnt=cnt+1
+            continue
+    print(cnt)
