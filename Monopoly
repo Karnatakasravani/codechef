@@ -1,0 +1,9 @@
+# cook your dish here
+for i in range(int(input())):
+    a,b,c,d=map(int,input().split())
+    n=max(a,b,c,d)
+    m=(a+b+c+d)-max(a,b,c,d)
+    if n>m:
+        print("YES")
+    else:
+        print("NO")
