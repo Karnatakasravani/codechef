@@ -1,0 +1,4 @@
+for i in range(int(input())):
+    n,m=map(int,input().split())
+    a=((n//100)*110)-(n-m)
+    print(a)
