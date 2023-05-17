@@ -1,0 +1,7 @@
+# cook your dish here
+n=int(input())
+for i in range(n):
+    a,b,c=map(int,input().split())
+    n=2*a+2*b
+    m=n*c
+    print(m)
